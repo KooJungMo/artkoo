@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Animator ArtKoo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: #333;
+        }
+        .profile-video {
+            display: block;
+            margin: 0 auto 2rem;
+            width: 100%;
+            max-width: 720px;
+            height: auto;
+        }
+        .content {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .experience {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .job {
+            background-color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .images img {
+            width: 80%;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 1.2rem;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Animator ArtKoo</h1>
+    </header>
+    <nav>
+        <a href="#animation">Animation</a>
+        <a href="#modeling">Modeling</a>
+        <a href="#croquis">Croquis</a>
+    </nav>
+    <div class="container">
+        <section id="animation" class="content">
+            <h2 class="section-title">Animation Portfolio</h2>
+            <video class="profile-video" controls>
+                <source src="your-video-file.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2 class="section-title">Experience</h2>
+            <div class="experience">
+                <div class="job">
+                    <h3>Job Title 1</h3>
+                    <p>Company Name, Year - Year</p>
+                    <p>Description of your role and achievements.</p>
+                </div>
+                <div class="job">
+                    <h3>Job Title 2</h3>
+                    <p>Company Name, Year - Year</p>
+                    <p>Description of your role and achievements.</p>
+                </div>
+                <!-- Add more jobs as needed -->
+            </div>
+        </section>
+        <section id="modeling" class="content">
+            <h2 class="section-title">Modeling Portfolio</h2>
+            <div class="images">
+                <img src="modeling1.jpg" alt="Modeling Image 1">
+                <img src="modeling2.jpg" alt="Modeling Image 2">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+        <section id="croquis" class="content">
+            <h2 class="section-title">Croquis Portfolio</h2>
+            <div class="images">
+                <img src="croquis1.jpg" alt="Croquis Image 1">
+                <img src="croquis2.jpg" alt="Croquis Image 2">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+        <section class="contact-info">
+            <p>Email: <a href="mailto:gujeongmo6@gmail.com">gujeongmo6@gmail.com</a></p>
+            <p>Phone: 010-4019-9847</p>
+            <p>Instagram: <a href="https://www.instagram.com/art_koo__/" target="_blank">https://www.instagram.com/art_koo__/</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ArtKoo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
