@@ -45,8 +45,7 @@
         .profile-video {
             display: block;
             margin: 0 auto 2rem;
-            width: 80%;
-            max-width: 720px;
+            width: 100%;
             height: auto;
         }
         .content {
@@ -65,15 +64,23 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 45%;
+            display: flex;
+            align-items: center;
+        }
+        .job img {
+            width: 50px;
+            height: 50px;
+            margin-right: 1rem;
+            border-radius: 50%;
         }
         .images {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         .images img {
-            width: 80%;
-            margin: 1rem 0;
+            width: 45%;
+            margin: 1rem;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -81,13 +88,18 @@
             text-align: center;
             margin: 2rem 0;
             font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
         }
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
+        .contact-info div {
+            display: flex;
+            align-items: center;
         }
-        .contact-info a:hover {
-            text-decoration: underline;
+        .contact-info img {
+            width: 24px;
+            height: 24px;
+            margin-right: 0.5rem;
         }
         footer {
             background-color: #333;
@@ -116,14 +128,20 @@
             <h2 class="section-title">Experience</h2>
             <div class="experience">
                 <div class="job">
-                    <h3>Job Title 1</h3>
-                    <p>Company Name, Year - Year</p>
-                    <p>Description of your role and achievements.</p>
+                    <img src="company-logo1.png" alt="Company Logo 1">
+                    <div>
+                        <h3>Job Title 1</h3>
+                        <p>Company Name, Year - Year</p>
+                        <p>Description of your role and achievements.</p>
+                    </div>
                 </div>
                 <div class="job">
-                    <h3>Job Title 2</h3>
-                    <p>Company Name, Year - Year</p>
-                    <p>Description of your role and achievements.</p>
+                    <img src="company-logo2.png" alt="Company Logo 2">
+                    <div>
+                        <h3>Job Title 2</h3>
+                        <p>Company Name, Year - Year</p>
+                        <p>Description of your role and achievements.</p>
+                    </div>
                 </div>
                 <!-- Add more jobs as needed -->
             </div>
@@ -145,9 +163,18 @@
             </div>
         </section>
         <section class="contact-info">
-            <p>Email: <a href="mailto:gujeongmo6@gmail.com">gujeongmo6@gmail.com</a></p>
-            <p>Phone: 010-4019-9847</p>
-            <p>Instagram: <a href="https://www.instagram.com/art_koo__/" target="_blank">https://www.instagram.com/art_koo__/</a></p>
+            <div>
+                <img src="email-icon.png" alt="Email Icon">
+                <a href="mailto:gujeongmo6@gmail.com">gujeongmo6@gmail.com</a>
+            </div>
+            <div>
+                <img src="phone-icon.png" alt="Phone Icon">
+                <span>010-4019-9847</span>
+            </div>
+            <div>
+                <img src="instagram-icon.png" alt="Instagram Icon">
+                <a href="https://www.instagram.com/art_koo__" target="_blank">Instagram</a>
+            </div>
         </section>
     </div>
     <footer>
